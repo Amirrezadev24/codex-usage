@@ -7,6 +7,8 @@ Codex Pulse is a dependency-free Windows widget for ChatGPT/Codex subscription u
 - Reuses `%USERPROFILE%\.codex\auth.json`; no second login or API key.
 - Detects Plus, Pro 5×, Pro 20×, Business, Enterprise, and Free where exposed.
 - Displays every quota window returned by Codex, with remaining percentage and reset countdown.
+- Refreshes usage automatically every minute.
+- Drag it from any non-button area of the widget.
 - Shows local token telemetry and a clearly-labelled rough token-equivalent remainder.
 - Uses the live usage service with an automatic fallback to Codex's latest local rate-limit snapshot.
 - Keeps the access token local and sends it only to `chatgpt.com`.
