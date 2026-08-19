@@ -1,0 +1,12 @@
+# Local diagnostics and captures
+trace*.log
+local-preview*.png
+final-preview*.png
+
+# Temporary credentials and SSH state
+gog*
+*.key
+
+# Windows noise
+Thumbs.db
+Desktop.ini
