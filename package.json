@@ -1,0 +1,26 @@
+{
+  "name": "codex-pulse",
+  "version": "0.2.0",
+  "description": "Cross-platform ChatGPT and Codex usage widget",
+  "author": "Codex Pulse contributors",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.codexpulse.widget",
+    "productName": "Codex Pulse",
+    "files": ["main.js", "preload.js", "usage.js", "src/**/*", "assets/**/*", "package.json"],
+    "linux": { "target": ["AppImage", "deb"], "category": "Utility" },
+    "mac": { "target": ["dmg", "zip"], "category": "public.app-category.utilities" },
+    "win": { "target": ["nsis", "portable"] }
+  }
+}

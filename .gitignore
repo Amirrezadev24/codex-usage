@@ -10,3 +10,10 @@ gog*
 # Windows noise
 Thumbs.db
 Desktop.ini
+node_modules/
+.npm-cache/
+.electron-cache/
+.electron-builder-cache/
+electron-preview.png
+dist/
+release/
