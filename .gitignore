@@ -1,11 +1,16 @@
 # Local diagnostics and captures
 trace*.log
-local-preview*.png
-final-preview*.png
 
 # Temporary credentials and SSH state
 gog*
 *.key
+.env
+.env.*
+electron-preview.png
+trace*.log
+local-preview*.png
+final-preview*.png
+
 
 # Windows noise
 Thumbs.db
